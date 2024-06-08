@@ -1,0 +1,31 @@
+.banner {
+    background: url('https://img.freepik.com/premium-photo/photo-cricket-player-stadium-ready-icc-world-cup-2023-match-generative-ai_742418-6149.jpg') center/cover no-repeat;
+    /*background: green;*/
+    padding: 100px 20px;
+    color: #fff;
+  }
+  
+  .banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .banner h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .banner-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    transition: background 0.3s;
+  }
+  
+  .banner-links a:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  

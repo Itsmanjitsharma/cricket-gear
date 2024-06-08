@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .search-cart {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-icon, .cart-icon {
+    margin-left: 15px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
