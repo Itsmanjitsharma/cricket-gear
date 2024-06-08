@@ -16,9 +16,9 @@ const Headers = () => {
         <a href="/">Blog</a>
       </nav>
       <div className="search-cart">
-      <a href="/"><FontAwesomeIcon icon={faSearch} /></a>
-      <a href="/"><FontAwesomeIcon icon={faShoppingCart} /></a>
-  </div>
+        <a href="/"><FontAwesomeIcon icon={faSearch} className="icon" /></a>
+        <a href="/"><FontAwesomeIcon icon={faShoppingCart} className="icon" /></a>
+      </div>
     </header>
   );
 };
