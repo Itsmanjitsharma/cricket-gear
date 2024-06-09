@@ -4,6 +4,8 @@ import Banner from './components/Banner';
 import ProductCard from './components/ProductCard';
 import Footers from './components/Footers';
 import './App.css';
+import Filter from './components/Filter';
+import SelectedProduct from './components/SelectedProduct';
 
 const products = [
   { name: 'Bats',  image: 'https://img.freepik.com/premium-photo/world-cup-2023-bat-ball-helmet-cricket-resource-ai-generated_931294-26.jpg' },
@@ -24,14 +26,7 @@ const products = [
 const App = () => {
   return (
     <div className="app">
-      <Headers />
-      <Banner/>
-      <section className="products">
-        {products.map(product => (
-          <ProductCard key={product.name} product={product} />
-        ))}
-      </section>
-      <Footers />
+     <SelectedProduct/>
     </div>
   );
 };

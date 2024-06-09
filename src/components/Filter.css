@@ -1,0 +1,50 @@
+/* Headers.css */
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: linear-gradient(to right, #3e555e, #4b6a76);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  color: #fff;
+}
+.nav {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #9e9999;
+  font-size: 16px;
+  position: relative;
+  transition: color 0.3s;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #ffcc00;
+}
+
+.nav a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ffcc00;
+  transition: width 0.3s;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}

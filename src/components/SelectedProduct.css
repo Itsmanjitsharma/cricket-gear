@@ -1,0 +1,46 @@
+.chart-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.selected-Product-container{
+    width: 100vw;
+    height: 60vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+}
+.image-container{
+    width: 60vw;
+    height: 60vh;
+    background-color: green;
+}
+.details-container{
+    width: 40vw;
+    height: 60vh;
+    background-color: yellow;
+}
+.recomanded-Product-container{
+    width: 100vw;
+    height: 40vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+
+}
+/*
+.recommended-Product-container {
+    width: 100vw;
+    height: 40vh;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    overflow-x: auto; 
+    padding: 20px;
+    box-sizing: border-box; 
+}*/
